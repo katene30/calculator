@@ -91,24 +91,16 @@
   #decimal{
     grid-area: decimal;
   }
-  
+
   #equals{
     grid-area: equals;
     background-color: pink;
     border-color: pink;
   }
-  
-  /* typography and color*/
-  
   button{ 
     font-size: 2em;
     border-radius: 5px;
   }
-  .clear{
-    background-color: rgb(192, 3, 3);
-    border-color:  rgb(192, 3, 3);
-  }
-  
   
   #display{
     background-color: white;
