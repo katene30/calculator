@@ -7,23 +7,23 @@
     <body>
         <div class="calculator">
             <div id="display">0</div>
-            <button id="add" onclick="pushButton(this);">+</button>
-            <button id="subtract" onclick="pushButton(this);">-</button>
-            <button id="multiply" onclick="pushButton(this);">*</button>
-            <button id="divide" onclick="pushButton(this);">/</button>
-            <button id="seven" onclick="pushButton(this);">7</button>
-            <button id="eight" onclick="pushButton(this);">8</button>
-            <button id="nine" onclick="pushButton(this);">9</button>
-            <button id="four" onclick="pushButton(this);">4</button>
-            <button id="five" onclick="pushButton(this);">5</button>
-            <button id="six" onclick="pushButton(this);">6</button>
-            <button id="one" onclick="pushButton(this);">1</button>
-            <button id="two" onclick="pushButton(this);">2</button>
-            <button id="three" onclick="pushButton(this);">3</button>
-            <button id="zero" onclick="pushButton(this);">0</button>
-            <button id="decimal" onclick="pushButton(this);">.</button>
-            <button id="clear" onclick="pushButton(this);">AC</button>
-            <button id="equals" onclick="pushButton(this);">=</button>
+        <button id="add" onclick="buttonClicked('+');">+</button>
+            <button id="subtract" onclick="buttonClicked('-');">-</button>
+            <button id="multiply" onclick="buttonClicked('*');">*</button>
+            <button id="divide" onclick="buttonClicked('/');">/</button>
+            <button id="seven" onclick="buttonClicked(7);">7</button>
+            <button id="eight" onclick="buttonClicked(8);">8</button>
+            <button id="nine" onclick="buttonClicked(9);">9</button>
+            <button id="four" onclick="buttonClicked(4);">4</button>
+            <button id="five" onclick="buttonClicked(5);">5</button>
+            <button id="six" onclick="buttonClicked(6);">6</button>
+            <button id="one" onclick="buttonClicked(1);">1</button>
+            <button id="two" onclick="buttonClicked(2);">2</button>
+            <button id="three" onclick="buttonClicked(3);">3</button>
+            <button id="zero" onclick="buttonClicked(0);">0</button>
+            <button id="decimal" onclick="buttonClicked('.');">.</button>
+            <button id="clear" onclick="buttonClicked();">AC</button>
+            <button id="equals" onclick="buttonClicked();">=</button>
         </div>
         <script src="calculator.js">
         </script>

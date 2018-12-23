@@ -10,25 +10,28 @@
 // if the value is less than 0 then return a negative number
 // pushes the number
 
-var inputLabel = document.getElementById('display');
+// var inputLabel = document.getElementById('display');
      
-    function pushButton(obj) {
-         
-        var pushed = obj.innerHTML;
-         
-        if (pushed == '=') {
-            inputLabel.innerHTML = eval(inputLabel.innerHTML);
+// function buttonClicked(obj) {
+//     var clicked = obj.innerHTML;
+//         if (clicked == '=') {
+//             inputLabel.innerHTML = eval(inputLabel.innerHTML);
+//         } else if (clicked == 'AC') {
+//             inputLabel.innerHTML = '0';
              
-        } else if (pushed == 'AC') {
-            
-            inputLabel.innerHTML = '0';
-             
-        } else {
-            if (inputLabel.innerHTML == '0') {
-                inputLabel.innerHTML = pushed;
+//         } else {
+//             if (inputLabel.innerHTML == '0') {
+//                 inputLabel.innerHTML = clicked;
                  
-            } else {
-                inputLabel.innerHTML += pushed;   
-            }
-        }
+//     } else {
+//                 inputLabel.innerHTML += clicked;   
+//             }
+//         }
+//     }
+function buttonClicked(num) {
+    if (document.getElementById("display").innerHTML == 0) {
+        document.getElementById("display").innerHTML = num;
+    } else{
+    document.getElementById("display").innerHTML += num;
     }
+}
